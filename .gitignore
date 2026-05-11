@@ -1,3 +1,5 @@
+# Material Magic Wand repository defaults
+
 # Python
 __pycache__/
 *.py[cod]
@@ -17,3 +19,8 @@ venv/
 # Build artifacts
 build/
 dist/
+
+# Local experiment outputs
+outputs/
+results/
+checkpoints/
