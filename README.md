@@ -31,6 +31,23 @@ Each label file contains the following fields:
 - `final_selection` — human-refined final part grouping
 
 
+## Pretrained Checkpoint
+
+The pretrained model checkpoint is available on HuggingFace:
+
+**Model:** [umangijain/material-magic-wand on HuggingFace](https://huggingface.co/umangijain/material-magic-wand)
+
+Download via `huggingface_hub`:
+
+```python
+from huggingface_hub import hf_hub_download
+
+checkpoint_path = hf_hub_download(
+    repo_id="umangijain/material-magic-wand",
+    filename="checkpoint.pt",
+)
+```
+
 ## Citation
 
 ```bibtex
